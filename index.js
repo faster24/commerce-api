@@ -20,7 +20,7 @@ const stripeRouter = require('./routes/stripe');
 
 
 app.get( '/' , (req , res ) =>{
-    res.send("Index")
+    res.send("Index of API");
 })
 
 
